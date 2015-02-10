@@ -3,7 +3,7 @@
 Plugin Name: AstroPress by Ask Oracle
 Plugin URI: http://www.aheadzen.com
 Description: Hands-down, easiest way to embed horoscopes and astrology charts on your blog or website, we got a plugin for you!. New widget - "AstroPress Widget" added and short code eg.- "[astropress width=500 height=600]"
-Version: 1.0.0.0
+Version: 1.0.1
 Author: Ask Oracle Team
 Author URI: http://ask-oracle.com/
 
@@ -91,14 +91,28 @@ function astropress_shortcode($atts) {
 	$atts['shortcode']=1;
 	$w = intval($atts['width']);
 	$h = intval($atts['height']);
+	$arg = array();
+	
+	if($atts['bgcolor']){$arg['bgcolor'] = $atts['bgcolor'];}
+	if($atts['textcolor']){$arg['textcolor'] = $atts['textcolor'];}
+	if($atts['linkcolor']){$arg['linkcolor'] = $atts['linkcolor'];}
 	if(!$w){$w=650;}
 	if(!$h){$h=750;}
-	$content = astropress_iframe_code($w,$h);
+	$content = astropress_iframe_code($w,$h,$arg);
 	return $content;
 }
 add_shortcode('astropress', 'astropress_shortcode');
 
-function astropress_iframe_code($w=600,$h=600)
+function astropress_iframe_code($w=600,$h=600,$arg=array())
 {
-	return '<iframe src="http://www.ask-oracle.com/embed/" style="max-width:'.$w.'px;" width="'.$w.'px" height="'. $h.'px" frameborder="0" ></iframe>';
+	//return '<iframe src="http://www.ask-oracle.com/embed/" style="max-width:'.$w.'px;" width="'.$w.'px" height="'. $h.'px" frameborder="0" ></iframe>';
+	$url = "http://localhost/arpit/ask-oracle-app-new/";
+	if($arg){
+		foreach($arg as $key=>$val)
+		{
+			$arg1[] = $key.'='.urlencode($val);
+		}
+		$url.= '?'.implode('&',$arg1);
+	}
+	return '<iframe src="'.$url.'" style="max-width:'.$w.'px;" width="'.$w.'px" height="'. $h.'px" frameborder="0" ></iframe>';
 }

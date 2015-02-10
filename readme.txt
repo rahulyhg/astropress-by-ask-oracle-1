@@ -7,9 +7,7 @@ Stable tag: 1.0.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-
 Hands-down, easiest way to embed horoscopes and astrology charts on your blog or website, we got a plugin for you!
-
 
 == Description ==
 
@@ -23,6 +21,15 @@ Features :
 Instructions to use as a widget - "AstroPress Widget"
 Instructions to use short code - [astropress width=500 height=600]
 
+New Shotcode after version : 1.0.1
+-----------------------------------
+[astropress width=350 heigh=300 bgcolor=#CCC textcolor=#DDD linkcolor=blue]
+where,
+	-- width=350  		--> set the width
+	-- heigh=300  		--> set the height
+	-- bgcolor=#CCC 	--> set background color
+	-- textcolor=#DDD 	--> set content text color
+	-- linkcolor=blue	--> set content like & comments link color
 
 Visit [http://aheadzen.com/?p=5344]
 
@@ -53,7 +60,16 @@ height = height of display screen in pixels, you can adjust as per you want.
 
 == Changelog ==
 
-= 1.0.0.0 =
+= 1.0.0 =
 * Fresh Public Release.
+
+= 1.0.1 =
+* Added the responsive layout
+* Added option to change background color, content text & link color by shotcode
+* New Shotcode :
+	[astropress width=350 heigh=300 bgcolor=#CCC textcolor=#DDD linkcolor=blue]
+	
+	
+
 
 
