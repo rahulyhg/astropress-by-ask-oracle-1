@@ -9,29 +9,36 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Hands-down, easiest way to embed horoscopes and astrology charts on your blog or website, we got a plugin for you!
 
+
 == Description ==
-
 If you want the hands-down, easiest way to embed horoscopes and astrology charts on your blog or website, we got a plugin for you!
-Horoscope and Compatibility readings are a perfect way to learn and understand more about your relationships, day-to-day life and know more about anything that is close to your heart and holds any importance to you. Our readings are more realistic, positive and offers useful advise to enjoy the best of all there is.
-Features :
-• Daily, Weekly and Monthly Horoscopes
-• Overview, Love and Money Horoscopes
-• Receive horoscope updates and notifications
-• Email us your queries/feedback
-Instructions to use as a widget - "AstroPress Widget"
-Instructions to use short code - [astropress width=500 height=600]
 
-New Shotcode after version : 1.0.1
------------------------------------
-[astropress width=350 heigh=300 bgcolor=#CCC textcolor=#DDD linkcolor=blue]
+Horoscope and Compatibility readings are a perfect way to learn and understand more about your relationships, day-to-day life and know more about anything that is close to your heart and holds any importance to you. Our readings are more realistic, positive and offers useful advise to enjoy the best of all there is.
+
+= Features =
+* Daily, Weekly and Monthly Horoscopes
+* Overview, Love and Money Horoscopes
+* Reliable and up to date, based on time tested principals of astrology.
+* Like and Comment
+* Email us your queries/feedback
+
+= Instructions =
+
+Use as a widget on sidebars - \"AstroPress Widget\"
+Short code - [astropress width=500 height=600]
+
+[astropress width=350 height=300 bgcolor=#CCC textcolor=#DDD linkcolor=blue]
 where,
 	-- width=350  		--> set the width
-	-- heigh=300  		--> set the height
-	-- bgcolor=#CCC 	--> set background color
-	-- textcolor=#DDD 	--> set content text color
-	-- linkcolor=blue	--> set content like & comments link color
+	-- height=300  		--> set the height
+	-- bgcolor=#CCC 	--> set background color, both hex and names
+	-- textcolor=#DDD 	--> set content text color, both hex and names
+	-- linkcolor=blue	--> set content like & comments link color, both hex and names
 
-Visit [http://aheadzen.com/?p=5344]
+[Other ways of integration] (http://www.ask-oracle.com/embed-horoscopes/)
+
+Any problems? [Contact Us] (http://www.ask-oracle.com/contact-us/)
+
 
 == Installation ==
 1. Unzip and upload plugin folder to your /wp-content/plugins/ directory  OR Go to wp-admin > plugins > Add new Plugin & Upload plugin zip.
@@ -67,7 +74,7 @@ height = height of display screen in pixels, you can adjust as per you want.
 * Added the responsive layout
 * Added option to change background color, content text & link color by shotcode
 * New Shotcode :
-	[astropress width=350 heigh=300 bgcolor=#CCC textcolor=#DDD linkcolor=blue]
+	[astropress width=350 height=300 bgcolor=#CCC textcolor=#DDD linkcolor=blue]
 	
 	
 
