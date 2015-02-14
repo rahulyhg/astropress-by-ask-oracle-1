@@ -26,9 +26,9 @@ Horoscope and Compatibility readings are a perfect way to learn and understand m
 
 Use as a widget on sidebars - "AstroPress Widget"
 
-Short code - [astropress width=500 height=600]
+Short code - `[astropress width=500 height=600]`
 
-[astropress width=350 height=300 bgcolor=#CCC textcolor=#DDD linkcolor=blue]
+`[astropress width=350 height=300 bgcolor=#CCC textcolor=#DDD linkcolor=blue]`
 
 where,
 
@@ -48,7 +48,7 @@ Any problems? [Contact Us](http://www.ask-oracle.com/contact-us/)
 1. Unzip and upload plugin folder to your /wp-content/plugins/ directory  OR Go to wp-admin > plugins > Add new Plugin & Upload plugin zip.
 2. Go to wp-admin > Plugins(left menu) > Activate the plugin
 3. See the new widget("AstroPress Widget") added in your wp-admin > widget section OR 
-also can use shortcode  [astropress width=500 height=600]
+also can use shortcode  `[astropress width=500 height=600]`
 where 
 width = width of display screen in pixels, maximum screen width is 600px only and minimum width is 300px
 height = height of display screen in pixels, you can adjust as per you want.
@@ -66,7 +66,7 @@ height = height of display screen in pixels, you can adjust as per you want.
 == Configuration ==
 
 1. Go to wp-admin >  widgets > get the new widget added named "AstroPress Widget" > drag & drop  as per your widget display area.
-2. Get the shortcode :: [astropress width=500 height=600] ==> add the shortcode by create new page or post of your wordpress site.
+2. Get the shortcode :: `[astropress width=500 height=600]` ==> add the shortcode by create new page or post of your wordpress site.
 3. If you cannot see widget or either shotcode not working? make sure you have installed & active the plugin.
 
 == Changelog ==
@@ -78,7 +78,7 @@ height = height of display screen in pixels, you can adjust as per you want.
 * Added the responsive layout
 * Added option to change background color, content text & link color by shotcode
 * New Shotcode :
-	[astropress width=350 height=300 bgcolor=#CCC textcolor=#DDD linkcolor=blue]
+	`[astropress width=350 height=300 bgcolor=#CCC textcolor=#DDD linkcolor=blue]`
 	
 	
 
