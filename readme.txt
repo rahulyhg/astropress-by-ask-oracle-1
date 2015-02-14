@@ -24,16 +24,20 @@ Horoscope and Compatibility readings are a perfect way to learn and understand m
 
 = Instructions =
 
-Use as a widget on sidebars - \"AstroPress Widget\"
+Use as a widget on sidebars - "AstroPress Widget"
+
 Short code - [astropress width=500 height=600]
 
 [astropress width=350 height=300 bgcolor=#CCC textcolor=#DDD linkcolor=blue]
+
 where,
-	-- width=350  		--> set the width
-	-- height=300  		--> set the height
-	-- bgcolor=#CCC 	--> set background color, both hex and names
-	-- textcolor=#DDD 	--> set content text color, both hex and names
+
+	-- width=350  		--> set the width	
+	-- height=300  		--> set the height	
+	-- bgcolor=#CCC 	--> set background color, both hex and names	
+	-- textcolor=#DDD 	--> set content text color, both hex and names	
 	-- linkcolor=blue	--> set content like & comments link color, both hex and names
+	
 
 [Other ways of integration] (http://www.ask-oracle.com/embed-horoscopes/)
 
