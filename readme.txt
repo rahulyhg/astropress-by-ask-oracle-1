@@ -39,9 +39,9 @@ where,
 	-- linkcolor=blue	--> set content like & comments link color, both hex and names
 	
 
-[Other ways of integration] (http://www.ask-oracle.com/embed-horoscopes/)
+[Other ways of integration](http://www.ask-oracle.com/embed-horoscopes/)
 
-Any problems? [Contact Us] (http://www.ask-oracle.com/contact-us/)
+Any problems? [Contact Us](http://www.ask-oracle.com/contact-us/)
 
 
 == Installation ==
