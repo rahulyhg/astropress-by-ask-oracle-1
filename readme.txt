@@ -79,7 +79,9 @@ height = height of display screen in pixels, you can adjust as per you want.
 * Added option to change background color, content text & link color by shotcode
 * New Shotcode :
 	`[astropress width=350 height=300 bgcolor=#CCC textcolor=#DDD linkcolor=blue]`
-	
+
+= 1.0.2 =
+* Horoscope API url was wrong >> Corrected
 	
 
 
